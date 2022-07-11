@@ -1,0 +1,116 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Arima&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,500;0,700;0,900;1,100;1,300;1,500;1,700&display=swap');
+
+* {
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+header {
+    height: 100px;
+    margin-bottom: 20px;
+    font-family: 'Arima', cursive; 
+    font-family: 'Work Sans', sans-serif;
+    
+}
+body {
+    background-image: linear-gradient(45deg,#969ADE, #132B57);
+    height: 100vh;
+    color: #ffff;
+    text-align: center;
+    width: 500px;
+    font-family: 'Arima', cursive; 
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+main {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.389);
+    color: black;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    height: 250px;
+    font-size: 20px;
+}
+
+.slide {
+  outline: none;
+  margin-top: 5px;
+}
+
+.button-cta {
+
+    background-color: #132b5741;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 120px;
+    height: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.button-cta:hover {
+    transition-duration: 0.4s;
+    background-color: #6793dfdb; 
+    color: rgba(255, 255, 255, 0.882);
+}
+
+.container-pass {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+    
+}
+
+.title {
+    margin-bottom: 12px;
+}
+
+.password {
+    height: 35px;
+    width: 200px;
+    background-color: #132b5745;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #132B57;
+    transition:transform 0.05s ;
+    cursor: pointer;
+    
+}
+
+.password:hover {
+    transform: scale(1.05);
+}
+
+.save {
+    position: relative;
+    top: 10px;
+    background-color: #132b5745;
+    width: 300px;
+    cursor: pointer;
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+
+}
+.container-pass:hover .save {  
+    visibility: visible;
+    opacity: 1;
+}
+
+.hide {
+    display: none;
+}
