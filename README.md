@@ -1,2 +1,2 @@
 # gerador-senhas
- O gerador produz senhas de forma aleatória
+ O gerador produz senhas de forma aleatória.
